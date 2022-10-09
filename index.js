@@ -53,7 +53,7 @@ const referee = (userHand, cpHand) => {
       setScore(SCORE + 1);
     }
   };
-  const resetGame=()=>{
+  const restartGame=()=>{
     let contest=document.querySelector('contest');
     contest.style.display='none';
     let hands=document.querySelector('.hands');
