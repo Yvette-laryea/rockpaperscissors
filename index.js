@@ -4,7 +4,7 @@ const handOptions = {
   "scissors": "Images/images/Scissors.png"
 }
 
-let score = 0;
+let SCORE = 0;
 
 const pickUserHand=(hand)=>{
 let hands= document.querySelector('.hands');
