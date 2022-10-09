@@ -54,7 +54,7 @@ const referee = (userHand, cpHand) => {
     }
   };
   const restartGame=()=>{
-    let contest=document.querySelector('contest');
+    let contest=document.querySelector('.contest');
     contest.style.display='none';
     let hands=document.querySelector('.hands');
     hands.style.display = "flex";
